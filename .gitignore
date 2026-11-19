@@ -1,0 +1,21 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Airflow logs and generated configuration
+logs/
+config/airflow.cfg
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Temporary Compose reference files
+docker-compose.backup.yaml
+docker-compose.official.yaml
